@@ -13,3 +13,5 @@
 .externalNativeBuild
 .cxx
 local.properties
+/keystore/limelight-app-release.jks
+/app/release/output-metadata.json
