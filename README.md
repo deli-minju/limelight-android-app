@@ -7,6 +7,8 @@
 <div align="center">
 
 ![License](https://img.shields.io/badge/license-MIT-green) ![Android](https://img.shields.io/badge/Android-3DDC84?style=flat&logo=android&logoColor=white) ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
+<br>
+[![Web Repository](https://img.shields.io/badge/Link-Web_Repository-blue?style=flat&logo=github)](https://github.com/deli-minju/limelight-movie-booking)
 
 > **"영화로 일상을 비추다"**
 >
@@ -25,6 +27,7 @@
 **LimeLight**는 안드로이드 App과 Web이 하나의 MySQL 데이터베이스를 공유하여 사용자가 어디서든 끊김 없이 예매 서비스를 이용할 수 있도록 구현된 **1인 풀스택 개발 프로젝트**입니다.
 
 * **웹 서비스 배포 링크:** [http://devmanjoo.mycafe24.com/](http://devmanjoo.mycafe24.com/)
+* **Web & Backend 리포지토리:** [https://github.com/deli-minju/limelight-movie-booking](https://github.com/deli-minju/limelight-movie-booking)
 * **프로젝트 기간:** 2025.11.05 ~ 2025.12.10
 * **개발 인원:** 1인 (Design, Frontend, Backend, Android, DB)
 
