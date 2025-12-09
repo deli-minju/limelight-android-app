@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundDark"
+    android:paddingBottom="40dp"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:src="@drawable/limelight_logo"
+            android:scaleType="fitStart"
+            android:contentDescription="LimeLight Logo"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="12dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="무비차트"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="#cfff04"/>
+
+            <Spinner
+                android:id="@+id/spinnerNow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_spinner_custom"
+                android:paddingStart="4dp"
+                android:paddingEnd="24dp"
+                android:minHeight="36dp"
+                android:spinnerMode="dropdown"
+                android:dropDownVerticalOffset="10dp"
+                android:dropDownWidth="wrap_content"
+                android:popupTheme="@style/SpinnerPopupTheme"
+                android:overlapAnchor="false"/>
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvNow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:overScrollMode="never"
+            android:clipToPadding="false"
+            android:layout_marginBottom="32dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="12dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="상영예정"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="#cfff04"/>
+
+            <Spinner
+                android:id="@+id/spinnerSoon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_spinner_custom"
+                android:paddingStart="4dp"
+                android:paddingEnd="24dp"
+                android:minHeight="36dp"
+                android:spinnerMode="dropdown"
+                android:dropDownVerticalOffset="10dp"
+                android:dropDownWidth="wrap_content"
+                android:popupTheme="@style/SpinnerPopupTheme"
+                android:overlapAnchor="false"/>
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvSoon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:overScrollMode="never"
+            android:layout_marginBottom="32dp"/>
+
+        <LinearLayout
+            android:id="@+id/layoutMyListContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="12dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MY LIST"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:textColor="#cfff04"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvMyListEmpty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="아직 찜한 영화가 없습니다."
+                android:textColor="#AAAAAA"
+                android:gravity="center"
+                android:padding="24dp"
+                android:visibility="gone"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvMyList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipToPadding="false"
+                android:overScrollMode="never"
+                android:paddingBottom="80dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

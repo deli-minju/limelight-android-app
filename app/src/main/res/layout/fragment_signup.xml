@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundDark"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ivLogo"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/limelight_logo"
+            android:scaleType="fitCenter"
+            android:layout_marginBottom="24dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <EditText
+                android:id="@+id/etId"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="아이디"
+                android:inputType="text"
+                android:textColor="@color/textLight"
+                android:textColorHint="#777777"
+                android:background="@null"
+                android:padding="12dp"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnCheckId"
+                android:layout_width="80dp"
+                android:layout_height="36dp"
+                android:text="중복확인"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:background="@drawable/bg_btn_gray_rounded"
+                android:textColor="#FFFFFF"/>
+        </LinearLayout>
+        <View
+            android:id="@+id/lineId"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#555555"
+            android:layout_marginBottom="12dp"/>
+
+        <EditText
+            android:id="@+id/etPw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="비밀번호"
+            android:inputType="textPassword"
+            android:textColor="@color/textLight"
+            android:textColorHint="#777777"
+            android:background="@null"
+            android:padding="12dp"/>
+        <View
+            android:id="@+id/linePw"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#555555"
+            android:layout_marginBottom="12dp"/>
+
+        <EditText
+            android:id="@+id/etPwConfirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="비밀번호 확인"
+            android:inputType="textPassword"
+            android:textColor="@color/textLight"
+            android:textColorHint="#777777"
+            android:background="@null"
+            android:padding="12dp"/>
+        <View android:id="@+id/linePwConfirm"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#555555"
+            android:layout_marginBottom="4dp"/>
+        <TextView android:id="@+id/tvPwMsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:layout_marginBottom="12dp"/>
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="이름"
+            android:inputType="textPersonName"
+            android:textColor="@color/textLight"
+            android:textColorHint="#777777"
+            android:background="@null"
+            android:padding="12dp"/>
+        <View
+            android:id="@+id/lineName"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#555555"
+            android:layout_marginBottom="12dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+            <EditText
+                android:id="@+id/etNickname"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="닉네임"
+                android:inputType="text"
+                android:textColor="@color/textLight"
+                android:textColorHint="#777777"
+                android:background="@null"
+                android:padding="12dp"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnCheckNick"
+                android:layout_width="80dp"
+                android:layout_height="36dp"
+                android:text="중복확인"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:background="@drawable/bg_btn_gray_rounded"
+                android:textColor="#FFFFFF"/>
+        </LinearLayout>
+        <View android:id="@+id/lineNickname"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#555555"
+            android:layout_marginBottom="12dp"/>
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="이메일"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/textLight"
+            android:textColorHint="#777777"
+            android:background="@null"
+            android:padding="12dp"/>
+        <View
+            android:id="@+id/lineEmail"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#555555"
+            android:layout_marginBottom="12dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="생년월일"
+            android:textColor="#AAAAAA"
+            android:textSize="14sp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:gravity="center_vertical">
+
+            <EditText
+                android:id="@+id/etYear"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="YYYY"
+                android:inputType="number"
+                android:maxLength="4"
+                android:gravity="center"
+                android:textColor="@color/textLight"
+                android:textColorHint="#777777"
+                android:background="@drawable/bg_rounded_gray"
+                android:padding="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="/"
+                android:textColor="#777777"
+                android:layout_marginHorizontal="4dp"/>
+
+            <EditText
+                android:id="@+id/etMonth"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="MM"
+                android:inputType="number"
+                android:maxLength="2"
+                android:gravity="center"
+                android:textColor="@color/textLight"
+                android:textColorHint="#777777"
+                android:background="@drawable/bg_rounded_gray"
+                android:padding="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="/"
+                android:textColor="#777777"
+                android:layout_marginHorizontal="4dp"/>
+
+            <EditText
+                android:id="@+id/etDay"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="DD"
+                android:inputType="number"
+                android:maxLength="2"
+                android:gravity="center"
+                android:textColor="@color/textLight"
+                android:textColorHint="#777777"
+                android:background="@drawable/bg_rounded_gray"
+                android:padding="10dp"/>
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSignUp"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="회원가입"
+            android:textSize="18sp"
+            android:layout_marginTop="32dp"
+            android:textStyle="bold"
+            android:background="@drawable/bg_btn_lime_rounded"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/tvLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="로그인"
+            android:textSize="16sp"
+            android:textColor="@color/navLime"
+            android:textStyle="bold"
+            android:layout_gravity="end"
+            android:paddingTop="16dp"/>
+    </LinearLayout>
+</ScrollView>

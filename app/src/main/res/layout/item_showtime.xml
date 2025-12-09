@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingVertical="10dp"
+    android:paddingHorizontal="16dp"
+    android:layout_marginEnd="8dp"
+    android:background="@drawable/bg_btn_gray_rounded"
+    android:gravity="center"
+    android:minWidth="100dp"> <TextView
+    android:id="@+id/tvTime"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="14:00 ~ 16:00"
+    android:textColor="#FFFFFF"
+    android:textSize="16sp"
+    android:textStyle="bold"
+    android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/tvScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="1관"
+        android:textColor="#AAAAAA"
+        android:textSize="13sp"
+        android:gravity="center"/>
+</LinearLayout>
