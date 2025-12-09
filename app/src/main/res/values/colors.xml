@@ -1,5 +1,7 @@
 <resources>
     <color name="limeAccent">#CFFF04</color>
-    <color name="black">#000000</color>
-    <color name="white">#FFFFFF</color>
+    <color name="backgroundDark">#000000</color>
+    <color name="textLight">#FFFFFF</color>
+    <color name="navLime">#CFFF04</color>
+    <color name="textDark">#000000</color>
 </resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment android:id="@+id/homeFragment"
+        android:name="com.devmanjoo.limelight.ui.home.HomeFragment"
+        android:label="Home" />
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.devmanjoo.limelight.ui.home.SearchFragment"
+        android:label="Search" />
+    <fragment android:id="@+id/bookFragment"
+        android:name="com.devmanjoo.limelight.ui.book.BookFragment"
+        android:label="Book" />
+    <fragment android:id="@+id/ticketsFragment"
+        android:name="com.devmanjoo.limelight.ui.tickets.TicketsFragment"
+        android:label="Tickets" />
+    <fragment android:id="@+id/profileFragment"
+        android:name="com.devmanjoo.limelight.ui.profile.ProfileFragment"
+        android:label="Profile" />
+    <fragment
+        android:id="@+id/signupFragment"
+        android:name="com.devmanjoo.limelight.ui.profile.SignupFragment"
+        android:label="Signup"/>
+</navigation>

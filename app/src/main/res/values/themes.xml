@@ -2,5 +2,33 @@
     <style name="Theme.LimeLight" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <item name="colorPrimary">@color/limeAccent</item>
         <item name="colorSecondary">@color/limeAccent</item>
+
+        <item name="android:fontFamily">@font/pretendard_regular</item>
+
+        <item name="android:windowBackground">@color/backgroundDark</item>
+        <item name="android:textColor">@color/textLight</item>
+        <item name="colorOnPrimary">@color/textLight</item>
+
+        <item name="android:statusBarColor">@color/backgroundDark</item>
+    </style>
+    <style name="NavText" parent="@android:style/TextAppearance">
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="TheaterButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">@drawable/bg_btn_gray_rounded</item>
+        <item name="android:minWidth">80dp</item>
+
+        <item name="android:paddingStart">12dp</item>
+        <item name="android:paddingEnd">12dp</item>
+    </style>
+    <style name="SpinnerPopupTheme" parent="ThemeOverlay.AppCompat.Dark">
+        <item name="android:colorBackground">#222222</item>
+        <item name="android:overlapAnchor">false</item>
+        <item name="android:dropDownVerticalOffset">40dp</item>
     </style>
 </resources>
