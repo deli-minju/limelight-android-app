@@ -37,27 +37,55 @@
 
 ### 📱 사용자 기능 - App & Web 공통
 
-* **통합 계정:** 앱에서 가입한 계정으로 웹 로그인 가능<br><br>
-  <img src="https://github.com/user-attachments/assets/8b7d1ca2-6a68-4cd0-acb0-6e37703ba5cb" height="400" alt="로그인"> <img src="https://github.com/user-attachments/assets/57a7c87c-22c8-4c97-9e94-b693be2de64f" height="400" alt="회원가입">
+* **통합 계정:** 앱에서 가입한 계정으로 웹 로그인 가능
 
-* **영화 예매:** 극장 > 날짜 > 영화 > 시간 > 인원 선택 프로세스<br><br>
-  <img src="https://github.com/user-attachments/assets/0fd773dc-b920-450c-b167-b8f8fd912c22" height="400" alt="예매"> <img src="https://github.com/user-attachments/assets/940e8396-f306-4e29-8da4-436dfdf9aa8a" height="400" alt="예매 성공"> <img src="https://github.com/user-attachments/assets/757fcef9-f534-44f2-9518-66ada9bccd98" height="400" alt="내역"> <img src="https://github.com/user-attachments/assets/a1602964-0958-4500-920a-5a05f18794dc" height="400" alt="로그아웃 예매">
+| 로그인 | 회원가입 |
+| :---: | :---: |
+| <img src="https://github.com/user-attachments/assets/8b7d1ca2-6a68-4cd0-acb0-6e37703ba5cb" width="280"> | <img src="https://github.com/user-attachments/assets/57a7c87c-22c8-4c97-9e94-b693be2de64f" width="280"> |
 
-* **무비차트 및 검색:** 현재 상영작/상영 예정작 조회 및 영화 검색 기능<br><br>
-  <img src="https://github.com/user-attachments/assets/6b3c6f20-001a-4b23-be86-e57342f3f45a" height="400" alt="홈"> <img src="https://github.com/user-attachments/assets/12d0a1e0-90ed-4165-8c3c-c986a2af09d2" height="400" alt="검색">
+<br>
 
-* **게이미피케이션:** 관람 횟수에 따른 레벨 업 시스템 및 통계 제공<br><br>
-  <img src="https://github.com/user-attachments/assets/655f8be4-55bb-4ce6-a061-15142b7af3af" height="400" alt="프로필">
+* **영화 예매:** 극장 > 날짜 > 영화 > 시간 > 인원 선택 프로세스
 
-* **커뮤니티:** 한줄평 작성 및 'My List(찜하기)' 기능<br><br>
-  <img src="https://github.com/user-attachments/assets/b2bfcc6c-32b0-4e40-91d2-5805624d9cb9" height="400" alt="한줄평"> <img src="https://github.com/user-attachments/assets/6f8a0599-1160-427b-99a4-57899192749f" height="400" alt="로그아웃 한줄평"> <img src="https://github.com/user-attachments/assets/b6772170-98d1-4018-81bc-80fa0b3dd6f9" height="400" alt="좋아요">
+| 예매 | 예매 성공 | 내역 | 로그아웃 - 예매 |
+| :---: | :---: | :---: | :---: |
+| <img src="https://github.com/user-attachments/assets/0fd773dc-b920-450c-b167-b8f8fd912c22" width="100%"> | <img src="https://github.com/user-attachments/assets/940e8396-f306-4e29-8da4-436dfdf9aa8a" width="100%"> | <img src="https://github.com/user-attachments/assets/757fcef9-f534-44f2-9518-66ada9bccd98" width="100%"> | <img src="https://github.com/user-attachments/assets/a1602964-0958-4500-920a-5a05f18794dc" width="100%"> |
 
-* **결제 시스템:** 조조, 청소년, 우대 등 조건별 요금 자동 계산<br><br>
-  <img src="https://github.com/user-attachments/assets/1777487a-f442-479c-9be7-d364d1ebba57" height="400" alt="가격">
+<br>
+
+* **무비차트 및 검색:** 현재 상영작/상영 예정작 조회 및 영화 검색 기능
+
+| 홈 | 검색 |
+| :---: | :---: |
+| <img src="https://github.com/user-attachments/assets/6b3c6f20-001a-4b23-be86-e57342f3f45a" width="280"> | <img src="https://github.com/user-attachments/assets/12d0a1e0-90ed-4165-8c3c-c986a2af09d2" width="280"> |
+
+<br>
+
+* **게이미피케이션:** 관람 횟수에 따른 레벨 업 시스템 및 통계 제공
+
+| 프로필 |
+| :---: |
+| <img src="https://github.com/user-attachments/assets/655f8be4-55bb-4ce6-a061-15142b7af3af" width="280"> |
+
+<br>
+
+* **커뮤니티:** 한줄평 작성 및 'My List(찜하기)' 기능
+
+| 한줄평 | 로그아웃 - 한줄평 | My List |
+| :---: | :---: | :---: |
+| <img src="https://github.com/user-attachments/assets/b2bfcc6c-32b0-4e40-91d2-5805624d9cb9" width="280"> | <img src="https://github.com/user-attachments/assets/6f8a0599-1160-427b-99a4-57899192749f" width="280"> | <img src="https://github.com/user-attachments/assets/b6772170-98d1-4018-81bc-80fa0b3dd6f9" width="280"> |
+
+<br>
+
+* **결제 시스템:** 조조, 청소년, 우대 등 조건별 요금 자동 계산
+
+| 요금 자동 계산 |
+| :---: |
+| <img src="https://github.com/user-attachments/assets/1777487a-f442-479c-9be7-d364d1ebba57" width="280"> |
 
 ### 🖥️ 관리자 기능 - Web Only
 * **대시보드:** 영화, 지점, 상영 스케줄 데이터의 통합 관리
-* **데이터 보호 (Soft Delete):** 영화나 지점 삭제 시 DB에서 완전히 지우지 않고 `is_deleted` 플래그를 사용하여 기존 고객의 예매 내역을 안전하게 보존
+* **데이터 보호:** 영화나 지점 삭제 시 DB에서 완전히 지우지 않고 `is_deleted` 플래그를 사용하여 기존 고객의 예매 내역을 안전하게 보존
 * **스케줄링:** 날짜별 상영 시간표 등록 및 삭제 시스템
 
 ---
@@ -73,8 +101,8 @@
 * **Libraries:** Retrofit2, OkHttp3, Glide, Gson, Commons-io
 
 ### **Web & Backend**
-* **Server:** PHP (RESTful API 설계)
-* **Database:** MySQL (MariaDB)
+* **Server:** PHP 8.2
+* **Database:** MySQL (MariaDB 10.x)
 * **Frontend:** HTML5, CSS3, JavaScript
 * **Hosting:** Cafe24 (SFTP 배포)
 
@@ -82,13 +110,13 @@
 
 ## 🔒 보안 및 아키텍처
 
-* **API Security:** `API Key` 인증 방식을 도입하여 인가되지 않은 외부 접근 차단
+* **API Security:**
+  * `API Key` 인증 방식을 도입하여 인가되지 않은 외부 접근 차단
 * **Database Security:**
-    * `mysqli_real_escape_string`을 통한 SQL Injection 방지
-    * 사용자 비밀번호 Hashing 저장
+  * `mysqli_real_escape_string`을 통한 SQL Injection 방지
+  * 사용자 비밀번호 Hashing 저장
 * **Config Management:**
-    * Android: `local.properties`를 통해 API Key 은닉
-    * Web: `db_secret.php` 분리 및 접근 제한
+  * `local.properties`를 통해 API Key 은닉
 
 ---
 
