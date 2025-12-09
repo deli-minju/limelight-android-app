@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnMinus"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:text="-"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/bg_circle_gray"
+        android:padding="0dp"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"/>
+
+    <TextView
+        android:id="@+id/tvCount"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:gravity="center"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnPlus"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:text="+"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:background="@drawable/bg_circle_lime"
+        android:padding="0dp"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"/>
+</LinearLayout>
